@@ -7,11 +7,15 @@ function status() {
 }
 
 function start() {
+
   cd ${OPENSHIFT_REPO_DIR}
 
   export CONSOLE_HOST="${OPENSHIFT_OSGI_IP}:15026"
 
   if [ ! -e config ]; then
+  echo  ${OPENSHIFT_OSGI_DIR}versions/current/config
+  echo ${OPENSHIFT_REPO_DIR}config
+  
     ln -s ${OPENSHIFT_OSGI_DIR}versions/current/config ${OPENSHIFT_REPO_DIR}config
   fi
 

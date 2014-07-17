@@ -7,7 +7,7 @@ This cartridge embeds Apache Felix runtime as a base for OSGI based applications
 Just create new gear with this cartridge
 
 ```
-rhc create-app <your app name> http://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/osgi-cartridge
+rhc create-app <your app name> http://cartreflect-claytondev.rhcloud.com/reflect?github=2686747/osgi-cartridge
 ```
 
 ## Control
@@ -16,5 +16,5 @@ At this time, there is not functionality exposed by default. When you start the 
 
 ```
 rhc ssh <your app name>
-telnet ${OPENSHIFT_OSGI_IP} 15026
+telnet ${OPENSHIFT_OSGI_IP} 16666
 ```

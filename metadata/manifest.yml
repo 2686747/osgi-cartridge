@@ -41,4 +41,4 @@ Endpoints:
   - Private-IP-Name:   OSGI_TELNET
     Private-Port-Name: ADMIN_PORT
     Private-Port:      16666
-	Public-Port-Name:  OSGI_TELNET_PORT
+    Public-Port-Name:  OSGI_TELNET_PORT

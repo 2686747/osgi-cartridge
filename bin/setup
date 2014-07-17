@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/openshift-cartridges/osgi-runtime.git versions/current
+git clone https://github.com/2686747/osgi-runtime.git versions/current
 
 cd versions/current
 

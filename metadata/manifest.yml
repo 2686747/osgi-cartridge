@@ -3,7 +3,7 @@ Name: osgi
 Cartridge-Short-Name: OSGI
 Cartridge-Version: '0.0.2'
 Compatible-Versions: ['0.0.2']
-Cartridge-Vendor: vmk80@mail.ru
+Cartridge-Vendor: vmk80mailru
 
 Display-Name: OSGI
 Description: "OSGI is a modular framework for Java"

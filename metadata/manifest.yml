@@ -1,9 +1,9 @@
 Name: osgi
 
 Cartridge-Short-Name: OSGI
-Cartridge-Version: '0.0.1'
-Compatible-Versions: ['0.0.1']
-Cartridge-Vendor: mjelen
+Cartridge-Version: '0.0.2'
+Compatible-Versions: ['0.0.2']
+Cartridge-Vendor: vmk80@mail.ru
 
 Display-Name: OSGI
 Description: "OSGI is a modular framework for Java"
@@ -37,3 +37,8 @@ Endpoints:
     Mappings:
       - Frontend:      "/"
         Backend:       "/"
+        
+  - Private-IP-Name:   OSGI_TELNET
+    Private-Port-Name: ADMIN_PORT
+    Private-Port:      16666
+	Public-Port-Name:  OSGI_TELNET_PORT
